@@ -1,0 +1,98 @@
+body {
+    background-color: #1d1f23;
+    line-height: 1.6;
+    color: white;
+}
+
+#main-title{
+    display: inline-block;
+    padding-right: 15px;
+}
+
+#main-title a:link{
+    text-decoration: none;
+}
+
+#social{
+    display: inline-block;
+}
+
+a:link, a:visited {
+    color: #f2b632;
+}
+
+button a:link, button a:visited {
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    color: white;
+    text-decoration: underline;
+}
+
+h1{
+    color: #b5b5b7;
+}
+
+h2{
+    color: #f2b632;
+}
+
+button {
+    background-color: transparent;
+    border: 1px solid #f2b632;
+    text-decoration: none;
+    display: inline-block;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+
+button:hover{
+    background-color: #f2b632;
+    border: 1px solid #f2b632;
+    text-decoration: none;
+    display: inline-block;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+
+.menu-item{
+    display: inline-block;
+    padding-right: 15px;
+    margin-bottom: 15px;
+}
+
+.menu-item-active{
+    display: inline-block;
+    padding-right: 15px;
+    margin-bottom: 15px;
+}
+
+.menu-item-active button a:link{
+    text-decoration: underline;
+}
+
+#me{
+    border-radius: 50%;
+    height: auto;
+    width: auto\9;
+    max-width: 40%;
+}
+
+.main-container{
+    text-align: center;
+}
+
+.main-container-2{
+    text-align: left;
+}
+
+.nav-bar{
+    text-align:center;
+}
