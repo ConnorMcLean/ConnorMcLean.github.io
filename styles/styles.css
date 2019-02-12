@@ -1,0 +1,188 @@
+body, html {
+    /* background-color: vlack; */
+    height: 100%;
+    width: 100%;
+    line-height: 1.6;
+    background-color: #222;
+}
+
+#main-title{
+    display: inline-block;
+    padding-right: 15px;
+}
+
+#main-title a:link{
+    text-decoration: none;
+}
+
+#social{
+    display: inline-block;
+}
+
+a:link, a:visited {
+    color: #f2b632;
+}
+
+button a:link, button a:visited {
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    color: white;
+    text-decoration: underline;
+}
+
+h1{
+    color: white;
+}
+
+h2{
+    color: #f2b632;
+}
+
+button {
+    background-color: transparent;
+    border: 1px solid #f2b632;
+    text-decoration: none;
+    display: inline-block;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+
+button:hover{
+    background-color: #f2b632;
+    border: 1px solid #f2b632;
+    text-decoration: none;
+    display: inline-block;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+
+.menu-item{
+    display: inline-block;
+    padding-right: 15px;
+    margin-bottom: 15px;
+}
+
+.menu-item-active{
+    display: inline-block;
+    padding-right: 15px;
+    margin-bottom: 15px;
+}
+
+.menu-item-active button a:link{
+    text-decoration: underline;
+}
+
+#me{
+    border-radius: 50%;
+    height: auto;
+    width: auto\9;
+    max-width: 40%;
+}
+
+.main-container{
+    text-align: center;
+    margin-top: 200px;
+    /* color: black; */
+    /* background-color: black; */
+}
+
+/* .main-container-2{
+    text-align: left;
+} */
+
+.navbar-fixed-top{
+  border-color: #222;
+}
+
+.navbar-header{
+  text-align: center;
+  float: none;
+}
+
+.navbar-brand{
+  text-align: center;
+  font-size: 30px;
+  float: none;
+}
+
+.navbar .navbar-nav {
+    margin-top: 5%;
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+    border-color: 0;
+}
+
+.logo-nav > li {
+  border: 0;
+  display: inline-block;dw
+}
+
+.logo-nav{
+  display: inline-block;
+  /* margin-top: 5%; */
+  margin:10px;
+  display: block;
+  text-align: center;
+  border-color: 0;
+}
+
+.nav-item{
+    font-size: 20px;
+}
+
+
+.navbar-nav > li {
+  margin-top: 5px;
+  margin-left: 10px;
+  display: inline-block;
+  float:none;
+  border: 0;
+  /* border-width: thin;
+  border-color: #33CCFF; */
+  border:  1px solid #33CCFF;
+}
+
+.logo{
+  border: 0;
+}
+
+.container-fluid{
+  margin-top: 20px;
+  border:0;
+}
+
+.profile-image{
+  /* margin-left: 5%; */
+  width: 200px;
+  height: 200px;
+  position: center;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.col-sm-8{
+  margin-top:px;
+  color: grey;
+  background-color: #222;
+}
+
+
+
+
+
+/* img {
+    display: inline;
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
+} */
