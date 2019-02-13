@@ -233,6 +233,11 @@ button:hover{
   float: none;
 }
 
+.col-centre{
+  float: 0;
+  text-align: center;
+}
+
 
 
 
