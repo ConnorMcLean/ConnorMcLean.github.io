@@ -211,7 +211,7 @@ button:hover{
 
 .col-sm-3{
   float: 0;
-  margin-left: 20%;
+  margin-left: 18%;
   /* margin-top: */
   color: grey;
   background-color: white;
@@ -223,6 +223,12 @@ button:hover{
   float:left;
   text-indent: 5;
   text-align: left;
+}
+
+.col-title{
+  margin-right: 0.5%;
+  text-align: center;
+  float: none;
 }
 
 
