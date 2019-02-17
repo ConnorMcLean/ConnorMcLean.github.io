@@ -23,8 +23,6 @@ a:link, a:visited {a
     color: #f2b632;
 }
 
-
-
 /* navbar menu colours */
 .navbar-inverse .navbar-nav>li>a:hover{
     /* color:#33CCFF; */
@@ -123,6 +121,8 @@ button:hover{
 
 .main-container{
     text-align: center;
+    font-family: 'Poppins',sans-serif;
+
     /* margin-top: 200px; */
     /* color: black; */
     /* background-color: black; */
@@ -138,14 +138,15 @@ button:hover{
 
 .navbar-header{
   text-align: center;
+  /* margin-left: 20px; */
   float: none;
 }
 
 .navbar-brand{
   text-align: center;
-  font-size: 30px;
+  font-family: 'Merriweather', serif;
+  font-size: 40px;
   float: none;
-  margin-left: 10px;
 }
 
 .navbar .navbar-nav {
@@ -186,6 +187,7 @@ button:hover{
   float:none;
   border: 0;
   color: white;
+  font-family: 'Merriweather', serif;
   /* border-width: thin;
   border-color: #33CCFF; */
   /* border:  1px solid #33CCFF; */
