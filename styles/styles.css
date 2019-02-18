@@ -213,7 +213,7 @@ button:hover{
 }
 
 .col-sm-3{
-  float: 0;
+  float: left;
   position: relative;
   /* align-items: center; */
   /* align-self: flex-end; */
@@ -226,12 +226,46 @@ button:hover{
 
 .col{
   /* margin-left: 2%; */
+  /* padding-left: 5%; */
   position: relative;
   float:left;
   word-wrap: break-word;
   text-indent: 5;
   text-align: left;
   max-width: 50%;
+}
+
+
+@media only screen and (max-width: 800px){
+
+  .col-sm-3{
+    float:left;
+    position: relative;
+    align-items: center;
+    /* align-self: flex-end; */
+    /* padding-left: 30%; */
+    /* margin-top: */
+    /* padding-left: 35%; */
+    margin: 5%
+    color: grey;
+    background-color: white;
+  }
+
+  .col{
+    /* margin-left: 2%; */
+    /* padding-left: 5%; */
+    position: relative;
+    float:none;
+    word-wrap: break-word;
+    text-indent: 5;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 25%;
+    margin-right: 20%;
+    max-width: 50%;
+  }
+
+
 }
 
 .col-title{
@@ -247,6 +281,12 @@ button:hover{
   margin-left: 25%;
   max-width: 50%;
 }
+
+.responsive{
+  max-width: 100%;
+  height: auto;
+}
+
 
 /* Alignment for single centre column with left alingned text in resume.html */
 
