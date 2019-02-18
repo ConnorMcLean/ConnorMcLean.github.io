@@ -325,6 +325,19 @@ img {
   margin: 3%;
 }
 
+.col-centre-left > p > a:link{
+text-decoration: underline;
+border:  1px solid white;
+color: #222;
+text-align: left;
+padding: 0.1%;
+}
+
+.col-centre-left > p > a:hover{
+  color: #222;
+  border:  1px solid #33CCFF;
+}
+
 .col-centre-left > p {
   padding-left: 10%;
 }
@@ -336,5 +349,4 @@ img {
 .col-centre-left > h3 > a:hover, .col-centre-left > h3 > a:active{
   color: #222;
   border:  1px solid #33CCFF;
-
 }
