@@ -79,12 +79,6 @@ p{
   font-size: 16px;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-
 button {
     background-color: transparent;
     /* border: 1px solid #f2b632; */
@@ -182,6 +176,14 @@ button:hover{
 }
 
 
+
+/*
+.responsive{
+  width: 100%;
+  height: auto;
+} */
+
+
 .navbar-nav > li {
   margin-top: 5px;
   margin-left: 10px;
@@ -197,12 +199,13 @@ button:hover{
 }
 
 .container-fluid{
-  margin-top: 2%px;
+  margin-top: 2%;
   border:0;
 }
 
 .profile-image{
-  /* margin-left: 5%; */
+  /* width: 100%; */
+  /* height: auto; */
   width: 200px;
   height: 200px;
   position: center;
@@ -211,6 +214,13 @@ button:hover{
   float: right;
   /* border: 3px solid #222; */
 }
+
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 
 .col-sm-3{
   float: left;
@@ -236,7 +246,7 @@ button:hover{
 }
 
 
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 768px){
 
   .col-sm-3{
     float:left;
@@ -249,6 +259,18 @@ button:hover{
     margin: 5%
     color: grey;
     background-color: white;
+  }
+
+  .profile-image{
+    width: 100%;
+    height: auto;
+    /* width: 200px; */
+    /* height: 200px; */
+    position: center;
+    overflow: hidden;
+    border-radius: 50%;
+    float: right;
+    /* border: 3px solid #222; */
   }
 
   .col{
