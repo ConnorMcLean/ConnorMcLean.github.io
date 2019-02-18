@@ -71,10 +71,19 @@ h2{
     text-decoration: underline;
 }
 
-h3{
+.col-centre-left > h3{
   text-align: center;
   text-decoration: underline;
 }
+
+.col-centre-left > p {
+  padding-left: 10%;
+}
+
+.col-centre-left > ul, .col-centre-left > li{
+  padding-left: 15%;
+}
+
 
 p{
   font-size: 16px;
@@ -259,7 +268,7 @@ button:hover{
   word-wrap: break-word;
   text-align: left;
   padding-left: 25%;
-  max-width: 50%;
+  max-width: 75%;
 }
 
 img {
